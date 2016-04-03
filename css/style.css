@@ -535,6 +535,11 @@
 			width: 100%;
 		}
 
+		h4.right {
+			display: inline-block;
+			float: right;
+		}
+
 			.image.fit img {
 				width: 100%;
 			}
