@@ -474,6 +474,18 @@
 				text-align: left;
 			}
 
+/* navbar icon */
+
+	.headerlogo {
+		padding-left: 40px;
+		padding-top: 5px;
+	}
+
+	.indexheaderlogo {
+		padding-left: 60px;
+		padding-top: 20px;
+	}
+
 /* Icon */
 
 	.icon {
