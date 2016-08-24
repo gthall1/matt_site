@@ -16,11 +16,14 @@
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="js/jquery.magnific-popup.min.js"></script>
+
+
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 			<link rel="stylesheet" href="css/magnific-popup.css" />
+			<link rel="stylesheet" href="css/lightbox.css" />
 		</noscript>
 	</head>
 	<body>
@@ -55,12 +58,16 @@
 							<div class="box alt image-gallery__container js-image-gallery__container">
 								<div class="row 50% uniform">
 									<!-- <div class="12u$"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div> -->
-									<div class="4u"><span class="image fit"><img src="images/bathroom_6_thumb.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><a href="images/bathroom_6_thumb.jpg" data-lightbox="roadtrip"><img src="images/bathroom_6_thumb.jpg" alt="" /></a></span></div>
 									<div class="4u"><span class="image fit"><img src="images/bathroom_20_thumb.jpg" alt="" /></span></div>
 									<div class="4u$"><span class="image fit"><img src="images/bathroom_7_thumb.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/bathroom_8_thumb.jpg" alt="" /></span></div>
+
+									<div class="4u"><span class="image fit"><a href="images/bathroom_8.jpg" data-lightbox="bathrooms">
+										<img src="images/bathroom_8_thumb.jpg" alt="" /></a>
+									</span></div>
 									<div class="4u"><span class="image fit"><img src="images/bathroom_5_thumb.jpg" alt="" /></span></div>
 									<div class="4u$"><span class="image fit"><img src="images/bathroom_17_thumb.jpg" alt="" /></span></div>
+
 									<div class="4u"><span class="image fit"><img src="images/bathroom_2_thumb.jpg" alt="" /></span></div>
 									<div class="4u"><span class="image fit"><img src="images/bathroom_1_thumb.jpg" alt="" /></span></div>
 									<div class="4u$"><span class="image fit"><img src="images/bathroom_4_thumb.jpg" alt="" /></span></div>
@@ -316,6 +323,8 @@
 					</ul>
 				</div>
 			</footer>
+
+			<script src="js/lightbox.js"></script>
 
 	</body>
 </html>
