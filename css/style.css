@@ -160,6 +160,13 @@
 		text-align: right;
 	}
 
+	/* Tweak to section 2 on index page */
+
+	.one-pic {
+		margin: auto;
+		float: none;
+	}
+
 /* Section/Article */
 
 	section.special, article.special, header.special {
@@ -198,7 +205,7 @@
 	}
 
 		header.major h2 {
-			font-size: 3em;
+			font-size: 2.9em;
 		}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -1080,7 +1087,8 @@
 		#banner h2 {
 			color: #ffffff;
 			display: inline-block;
-			font-size: 3.5em;
+			font-size: 4.5em;
+			font-family: serif;
 			line-height: 1.35;
 			margin-bottom: 0.5em;
 		}
