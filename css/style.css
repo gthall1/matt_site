@@ -167,6 +167,12 @@
 		float: none;
 	}
 
+	/* area of 4 pics on index page */
+
+	.fourgroup{
+		font-size: 2.5em;
+	}
+
 /* Section/Article */
 
 	section.special, article.special, header.special {
