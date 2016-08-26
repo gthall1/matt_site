@@ -173,6 +173,35 @@
 		font-size: 2.5em;
 	}
 
+	/* text of group of four on index */
+
+	.fourtext {
+		padding-top: 11%;
+	}
+
+	.fourtext4 {
+		padding-top: 7%;
+	}
+
+	/* quick hit links on portfolio */
+
+	.quickhits {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.quickhitlinks {
+		display: inline;
+		padding: 15px;
+	}
+
+	.hotlinks {
+		color: #000000;
+	}
+
 /* Section/Article */
 
 	section.special, article.special, header.special {
@@ -273,8 +302,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #f32853;
-			box-shadow: 0 0 0 1px #f32853;
+			border-color: #3DC9B3;
+			box-shadow: 0 0 0 1px #3DC9B3;
 		}
 
 	.select-wrapper {
@@ -486,6 +515,7 @@
 				margin-left: 5%;
 				text-align: left;
 			}
+
 
 /* navbar icon */
 
@@ -901,7 +931,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #f32853;
+			background-color: #3DC9B3;
 			color: #ffffff !important;
 		}
 
@@ -909,14 +939,14 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #f44066;
+				background-color: #81EFDD;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #f21040;
+				background-color: #3DC9B3;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
