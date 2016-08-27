@@ -1,19 +1,3 @@
-<?php
-
-
-
-if ($_POST['send']) {
-  sendMail();
-} elseif (($_POST['cancel']) || ($_POST['continue'])) {
-  redirect();
-} else {
-  displayForm(false);
-}
-
-?>
-
-
-
 <html>
   <head>
     <title>Thanks For Contacting Us</title>
