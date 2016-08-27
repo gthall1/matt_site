@@ -30,7 +30,7 @@
     $messages[] = "Please provide a contact number.";
     }
 
-    $body = $_POST['body'];
+    $body = $_POST['message'];
     # Make sure the message has a body
     if (preg_match('/^\s*$/', $body)) {
     $messages[] = "Your message was blank. Did you mean to say " .
