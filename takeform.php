@@ -70,7 +70,7 @@ if ($_POST['send']) {
         }
 
 
-
+      }
       ?>
   </body>
 </html>
