@@ -1,9 +1,19 @@
+<?php
+
+if ($_POST['send']) {
+  sendMail();
+}
+
+
+?>
+
 <html>
   <head>
     <title>Thanks For Contacting Us</title>
   </head>
   <body>
     <?php
+    }
 
 
     function sendMail()
@@ -58,6 +68,7 @@
             "Reply-To: $realName <$email>\r\n");
           echo("<p>Your message has been sent. Thank you!</p>\n");
         }
+
 
 
       ?>
