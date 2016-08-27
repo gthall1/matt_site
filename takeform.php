@@ -13,7 +13,7 @@ if ($_POST['send']) {
   </head>
   <body>
     <?php
-    }
+
 
 
     function sendMail()
