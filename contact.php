@@ -47,7 +47,7 @@
 
           <?php
             if ($_POST["email"]<>'') {
-                $ToEmail = 'griffhall1@gmail.com';
+                $ToEmail = 'griff@getluckee.com';
                 $EmailSubject = 'New message from your website';
                 $mailheader = "From: ".$_POST["email"]."\r\n";
                 $mailheader .= "Reply-To: ".$_POST["email"]."\r\n";
