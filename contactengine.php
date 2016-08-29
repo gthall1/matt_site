@@ -1,19 +1,19 @@
 <?php
 
-$EmailFrom = "alfred@getluckee.com";
+$EmailFrom = "matt@notohomebuilders.com";
 $EmailTo = "griff@getluckee.com";
 $Subject = "You have a new inquiry on your site:";
 $Name = Trim(stripslashes($_POST['name']));
-$Tel = Trim(stripslashes($_POST['phone']));
 $Email = Trim(stripslashes($_POST['email']));
+$Tel = Trim(stripslashes($_POST['phone']));
 $Message = Trim(stripslashes($_POST['message']));
 
 // validation
-$validationOK=true;
-if (!$validationOK) {
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
-  exit;
-}
+//$validationOK=true;
+//if (!$validationOK) {
+//  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
+//  exit;
+//}
 
 // prepare email body text
 $Body = "";
