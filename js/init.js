@@ -72,12 +72,6 @@
 var	$window = $(window),
 	$body = $('body');
 
-$('.image-link').magnificPopup({
-	type:'image',
-	gallery:{
-	  enabled:true
-	}
-});
 
 // Disable animations/transitions until the page has loaded.
 	$body.addClass('is-loading');
