@@ -240,7 +240,7 @@
 	}
 
 		header.major h2 {
-			font-size: 2.9em;
+			font-size: 2.25em;
 		}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -249,7 +249,7 @@
 		}
 
 		header.major p {
-			font-size: 1.7em;
+			font-size: 1.3em;
 			margin-bottom: 0;
 		}
 
@@ -966,7 +966,7 @@
 /* Header */
 
 	#skel-layers-wrapper {
-		padding-top: 6em;
+		padding-top: 2em;
 	}
 
 	body.landing #skel-layers-wrapper {
