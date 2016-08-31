@@ -208,6 +208,14 @@
 		color: #DDD9D9;
 	}
 
+/* family photo on about page */
+
+	.aboutfamily {
+		margin: auto;
+		padding-bottom: 4em;
+	}
+
+
 /* Section/Article */
 
 	section.special, article.special, header.special {
@@ -591,14 +599,15 @@
 			}
 
 		.image.fit {
-			display: block;
-			margin: 0 0 2em 0;
-			width: 100%;
-		}
+      display: block;
+      margin: 0;
+      width: 100%;
+    }
 
-			.image.fit img {
-				width: 100%;
-			}
+      .image.fit img {
+        width: 70%;
+        margin: auto;
+      }
 
 		.image.rounded {
 			border-radius: 100%;
