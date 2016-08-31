@@ -215,6 +215,11 @@
 		padding-bottom: 4em;
 	}
 
+	.familypicture {
+		width: 70%;
+		margin: auto;
+	}
+
 
 /* Section/Article */
 
@@ -605,7 +610,7 @@
     }
 
       .image.fit img {
-        width: 70%;
+        width: 100%;
         margin: auto;
       }
 
