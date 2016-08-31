@@ -202,6 +202,12 @@
 		color: #484848;
 	}
 
+/*  font overlay for section four on home page */
+
+	.fourfont {
+		color: #DDD9D9;
+	}
+
 /* Section/Article */
 
 	section.special, article.special, header.special {
@@ -1158,7 +1164,7 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay_35.png"), url("../images/banner.jpg");
+			background-image: url("images/overlay_35.png"), url("../images/beach_house.png");
 			background-position: center center;
 			background-size: cover;
 		}
